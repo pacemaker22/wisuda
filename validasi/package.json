@@ -1,0 +1,23 @@
+{
+  "name": "validasiwisudawan",
+  "version": "1.0.0",
+  "description": "medigitalisasi sistem validasi bagi para wisudawan",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "validasi",
+    "wisuda"
+  ],
+  "author": "artik dan andrew",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.1",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.12.1"
+  }
+}
